@@ -37,7 +37,7 @@ fi
 source .env
 
 # Finds the context file in the shared volume and extracts the UUID from there
-timeout 120 sh -c -- "while true
+timeout -t 120 sh -c -- "while true
 do
     echo 'INFO: waiting for '${VPN_CONF}
     until [[ -f ${VPN_CONF} ]]
