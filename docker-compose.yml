@@ -3,18 +3,12 @@ version: "3.7"
 services:
   vpn-client:
     build: .
-    environment:
-      - NUVLABOX_UUID=${NUVLABOX_UUID}
-    expose:
-      - 5000
     restart: always
     cap_add:
       - NET_ADMIN
     network_mode: host
     devices:
       - /dev/net/tun
-    volumes:
-      - /root/vpn:/etc/openvpn:ro
     labels:
       - nuvlabox.component=True
       - nuvlabox.deployment=production
