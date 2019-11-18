@@ -37,13 +37,10 @@ fi
 source .env
 
 # Finds the context file in the shared volume and extracts the UUID from there
-echo 'INFO: waiting for '${VPN_CONF}
-timeout -t 120 sh -c -- "while true
+timeout -t 120 sh -c -- "echo 'INFO: waiting for '${VPN_CONF}
+until [[ -f ${VPN_CONF} ]]
 do
-    until [[ -f ${VPN_CONF} ]]
-    do
-        continue
-    done
+    continue
 done
 "
 # Start the openvpn client in foreground
