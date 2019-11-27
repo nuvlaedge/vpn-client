@@ -1,4 +1,8 @@
 # Changelog
+## [0.0.2] - 2019-11-27
+### Added
+### Changed
+- fixed up script for vpn client
 ## [0.0.1] - 2019-11-19
 ### Added 
 - using custom entrypoint to wait for valid VPN configuration 
