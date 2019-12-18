@@ -3,6 +3,7 @@ version: "3.7"
 services:
   vpn-client:
     build: .
+    container_name: vpn-client
     restart: always
     cap_add:
       - NET_ADMIN
