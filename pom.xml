@@ -6,7 +6,7 @@
     <groupId>sixsq.nuvlabox.vpn-client</groupId>
     <artifactId>vpn-client</artifactId>
     <packaging>pom</packaging>
-    <version>0.0.3-SNAPSHOT</version>
+    <version>0.0.3</version>
     <name>vpn-client</name>
     <url>http://sixsq.com/</url>
 

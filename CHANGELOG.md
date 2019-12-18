@@ -1,4 +1,8 @@
 # Changelog
+## [0.0.3] - 2019-12-18
+### Added 
+- check for the existence of a VPN configuration file before starting the VPN client
+### Changed
 ## [0.0.2] - 2019-11-27
 ### Added
 ### Changed
