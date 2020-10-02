@@ -16,10 +16,12 @@ LABEL travis.build.web.url=${TRAVIS_BUILD_WEB_URL}
 
 RUN apk --no-cache add openvpn=2.4.6-r4
 
-COPY code/ /opt/nuvlabox/
+COPY code/ LICENSE /opt/nuvlabox/
 
 WORKDIR /opt/nuvlabox/
 
 VOLUME /srv/nuvlabox/shared
+
+ONBUILD RUN ./license.sh
 
 ENTRYPOINT ["./openvpn-client.sh"]
