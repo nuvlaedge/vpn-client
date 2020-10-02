@@ -1,4 +1,8 @@
 # Changelog
+## [0.0.5] - 2020-10-02
+### Added
+### Changed
+- ONBUILD SixSq license dump
 ## [0.0.4] - 2020-02-18
 ### Added
 ### Changed
