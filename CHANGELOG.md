@@ -1,4 +1,8 @@
 # Changelog
+## [1.0.0] - 2021-02-08
+### Added
+### Changed
+ - changed CI pipeline and re-tagged last image
 ## [0.0.5] - 2020-10-02
 ### Added
 ### Changed
