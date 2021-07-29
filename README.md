@@ -3,7 +3,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)](https://github.com/nuvlabox/vpn-client/graphs/commit-activity)
 [![GitHub issues](https://img.shields.io/github/issues/nuvlabox/vpn-client?style=for-the-badge&logo=github&logoColor=white)](https://GitHub.com/nuvlabox/vpn-client/issues/)
 [![Docker pulls](https://img.shields.io/docker/pulls/nuvlabox/vpn-client?style=for-the-badge&logo=Docker&logoColor=white)](https://cloud.docker.com/u/nuvlabox/repository/docker/nuvlabox/vpn-client)
-[![Docker image size](https://img.shields.io/microbadger/image-size/nuvlabox/vpn-client?style=for-the-badge&logo=Docker&logoColor=white)](https://cloud.docker.com/u/nuvlabox/repository/docker/nuvlabox/vpn-client)
+[![Docker image size](https://img.shields.io/docker/image-size/nuvladev/vpn-client/master?logo=docker&logoColor=white&style=for-the-badge)](https://cloud.docker.com/u/nuvlabox/repository/docker/nuvlabox/vpn-client)
 
 
 ![CI Build](https://github.com/nuvlabox/vpn-client/actions/workflows/main.yml/badge.svg)
