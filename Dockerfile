@@ -16,8 +16,8 @@ LABEL org.opencontainers.image.authors="support@sixsq.com"
 LABEL org.opencontainers.image.created=${GIT_BUILD_TIME}
 LABEL org.opencontainers.image.url=${PROJECT_URL}
 LABEL org.opencontainers.image.vendor="SixSq SA"
-LABEL org.opencontainers.image.title="NuvlaBox System Manager"
-LABEL org.opencontainers.image.description="Manages the overall state of the NuvlaBox Engine"
+LABEL org.opencontainers.image.title="NuvlaBox VPN Client"
+LABEL org.opencontainers.image.description="Provides a VPN client connection for the NuvlaBox edge device"
 
 RUN apk --no-cache add openvpn=2.4.6-r4
 
