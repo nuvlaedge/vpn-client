@@ -1,4 +1,8 @@
 # Changelog
+## [1.0.1] - 2022-03-24
+### Added 
+ - Add org.opencontainers labels
+### Changed
 ## [1.0.0] - 2021-02-08
 ### Added
 ### Changed
