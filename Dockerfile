@@ -1,4 +1,5 @@
-FROM alpine:3.9
+ARG BASE_IMAGE=python:3.8-alpine3.12
+FROM ${BASE_IMAGE}
 
 ARG GIT_BRANCH
 ARG GIT_COMMIT_ID
@@ -19,7 +20,7 @@ LABEL org.opencontainers.image.vendor="SixSq SA"
 LABEL org.opencontainers.image.title="NuvlaBox VPN Client"
 LABEL org.opencontainers.image.description="Provides a VPN client connection for the NuvlaBox edge device"
 
-RUN apk --no-cache add openvpn=2.4.6-r4
+RUN apk update && apk add --no-cache openvpn
 
 COPY code/ LICENSE /opt/nuvlabox/
 

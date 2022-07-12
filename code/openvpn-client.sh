@@ -36,7 +36,7 @@ fi
 
 source .env
 
-timeout -t 120 sh -c -- "echo 'INFO: waiting for '${VPN_CONF}
+timeout 120 sh -c -- "echo 'INFO: waiting for '${VPN_CONF}
 until [[ -f ${VPN_CONF} ]]
 do
     sleep 3
