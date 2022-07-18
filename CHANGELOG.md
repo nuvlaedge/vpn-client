@@ -3,8 +3,6 @@
 ### Added
 ### Changed
  - Use common base image for all NE components
-## Unreleased
-### Changed
  - Changed Dockerfile base image to match NE common
 ## [1.0.1] - 2022-03-24
 ### Added 
