@@ -1,6 +1,6 @@
 #!/bin/sh
 
-source /opt/nuvlabox/.env
+source /opt/nuvlaedge/.env
 # the openvpn client automatically passes the VPN IP into this script
 echo $4 > ${VPN_IP}
 

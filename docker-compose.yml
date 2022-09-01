@@ -11,5 +11,5 @@ services:
     devices:
       - /dev/net/tun
     labels:
-      - nuvlabox.component=True
-      - nuvlabox.deployment=production
+      - nuvlaedge.component=True
+      - nuvlaedge.deployment=production

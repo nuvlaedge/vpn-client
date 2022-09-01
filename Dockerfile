@@ -17,16 +17,16 @@ LABEL org.opencontainers.image.authors="support@sixsq.com"
 LABEL org.opencontainers.image.created=${GIT_BUILD_TIME}
 LABEL org.opencontainers.image.url=${PROJECT_URL}
 LABEL org.opencontainers.image.vendor="SixSq SA"
-LABEL org.opencontainers.image.title="NuvlaBox VPN Client"
-LABEL org.opencontainers.image.description="Provides a VPN client connection for the NuvlaBox edge device"
+LABEL org.opencontainers.image.title="NuvlaEdge VPN Client"
+LABEL org.opencontainers.image.description="Provides a VPN client connection for the NuvlaEdge edge device"
 
 RUN apk update && apk add --no-cache openvpn
 
-COPY code/ LICENSE /opt/nuvlabox/
+COPY code/ LICENSE /opt/nuvlaedge/
 
-WORKDIR /opt/nuvlabox/
+WORKDIR /opt/nuvlaedge/
 
-VOLUME /srv/nuvlabox/shared
+VOLUME /srv/nuvlaedge/shared
 
 ONBUILD RUN ./license.sh
 

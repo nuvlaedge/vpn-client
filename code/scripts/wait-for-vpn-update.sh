@@ -1,6 +1,6 @@
 #!/bin/sh
 
-source /opt/nuvlabox/.env
+source /opt/nuvlaedge/.env
 
 timestamp_nb_conf=$(stat -c %Y ${VPN_CONF})
 

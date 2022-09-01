@@ -1,10 +1,10 @@
 #!/bin/sh
 
 
-header_message="NuvlaBox OpenVPN Client
+header_message="NuvlaEdge OpenVPN Client
 \n\n
 This microservice is responsible for setting up the VPN client
-for the NuvlaBox.
+for the NuvlaEdge.
 \n\n
 Arguments:\n
   No arguments are expected.\n
