@@ -48,5 +48,5 @@ if [[ $? -eq 0 ]]
 then
   # Start the openvpn client in foreground
   echo "INFO: starting VPN client with configuration file ${VPN_CONF}"
-  openvpn ${VPN_CONF}
+  exec openvpn ${VPN_CONF}
 fi
